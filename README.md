@@ -65,6 +65,10 @@ Sistema de etiquetado como HTML
     git config --local user.name "<nombre>"
     git config --local user.email "<email>"
 
+### Crear repositorio 
+
+    git init
+
 ### Para ver el estado del Working directory
 
     git status
@@ -82,5 +86,13 @@ Sistema de etiquetado como HTML
 
     git log
 
+### Para agregar un repositorio remoto a mi repo local
 
+    git remote add origin <url>
+
+### Para subir el repositorio local al remoto
+
+    git push -u <remoto> <local>
+    
+    git push -u origin master
 
