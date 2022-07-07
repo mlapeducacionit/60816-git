@@ -65,7 +65,22 @@ Sistema de etiquetado como HTML
     git config --local user.name "<nombre>"
     git config --local user.email "<email>"
 
-    
+### Para ver el estado del Working directory
+
+    git status
+
+### Para subir al escendario los archivos (Staging Area)
+
+    git add <nombre>
+    git add . # Agrega todos los archivos al escendario
+
+### Para sacar la foto (Hacer un commit)
+
+    git commit -m "<mensaje>"
+
+### Para ver las fotos (Historia del repositorio)
+
+    git log
 
 
 
