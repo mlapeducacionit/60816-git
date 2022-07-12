@@ -72,3 +72,21 @@ Archivo que nos permite no darle seguimiento a otros
 ### Agrego algo que me olvidé en el último commit
 
     git commit --amend
+
+## GIT ADD
+
+### Por archivo
+    
+    git add index.html
+
+### O agrego todo
+
+    git add . 
+
+
+### Agrego partes de un archivo
+
+    git add -p
+
+* y: yes
+* n: no
