@@ -90,3 +90,32 @@ Archivo que nos permite no darle seguimiento a otros
 
 * y: yes
 * n: no
+
+## GIT REMOTE
+
+    git remote --help
+
+### Para ver los remotos
+
+    git remote
+
+### Ver los remotos en forma detallada
+
+    git remote -v
+
+### Agregar un remoto
+
+    git remote add <alias-del-remoto> <url>
+
+### Renombrar el remoto
+
+    git remote <nombre-original> <nombre-nuevo>
+    
+Ejemplo 
+
+    git remote origin maxi
+
+### Borrar remoto
+
+    git remote rm <alias-del-remoto>
+    git remote remove <alias-del-remoto>
