@@ -62,4 +62,10 @@ Archivo que nos permite no darle seguimiento a otros
 
     git commit -am "mensaje"
 
+### Crear un commit vacío
 
+    git commit --allow-empty -m "mensaje"
+
+### Agrego algo que me olvidé en el último commit
+
+    git commit --amend
