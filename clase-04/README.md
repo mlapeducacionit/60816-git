@@ -97,3 +97,4 @@ Link: https://www.atlassian.com/es/git/tutorials/saving-changes/git-stash
     git stash apply 
     git stash apply stash@{1}
 
+# -------------------------------------
