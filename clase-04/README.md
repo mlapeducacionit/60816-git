@@ -97,3 +97,17 @@ Link: https://www.atlassian.com/es/git/tutorials/saving-changes/git-stash
     git stash apply 
     git stash apply stash@{1}
 
+## GIT RESET
+
+> SOFT: Me saca los commits y deja todo en Staging AREA
+
+    git reset --soft
+
+> MIXED: Me saca los commits y me los deja en Working DIRECTORY
+
+    git reset <número-hash>
+    git reset --mixed
+
+> HARD (Peligroso, mucho cuidado): Borra los commits definitivamente y los cambios
+
+    git reset --hard
