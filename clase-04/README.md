@@ -18,7 +18,10 @@ git config --get-regexp alias
 
 git config --global --unset alias.c
 
-
+### Agrego info acá sobre git
+manzana
+pera
+banana
 
 
 
