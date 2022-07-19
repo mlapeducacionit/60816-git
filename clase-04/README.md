@@ -63,3 +63,37 @@ Ej: Si quiero traerme a **master** lo que tengo en **dev**, tengo que estar posi
 * Fast-Fodward (No hay ningun conflicto, se hace en forma automatica)
 * Recursivo - Uniones automaticas (Tampoco hay conflicto) - Trabaja con algoritmo
 * Manual - (Donde hay conflictos - Y acá es cuando hay que junstarse para resolver el conflicto)
+
+## GIT STASH
+**NOTA**: Los stash no están disponibles en el remoto. Solo localmente. No se subir al remoto.
+
+Link: https://www.atlassian.com/es/git/tutorials/saving-changes/git-stash
+
+### Crear un stash
+
+    git stash
+
+### Veo los stash
+
+    git stash list
+
+### Para borrar un stash
+
+> Borrar el último stash
+
+    git stash drop
+
+> Borrar un stash particular
+
+    git stash drop 
+    git stash drop stash@{0}
+
+> Aplicar un stash, el último
+
+    git stash pop
+
+> Aplicar cualquier stash de los que tengo
+
+    git stash apply 
+    git stash apply stash@{1}
+
