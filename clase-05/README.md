@@ -17,8 +17,46 @@
     git pull upstream <rama-que-quiero-actualizar>
 
 9. Subir esas actualizaciones del repositorio local a mi remoto.
+## TAG (Etiquetado)
+Me permite etiquetar commits.
 
+> Ver tags disponibles tengo
 
+    git tag
 
+> Como creo un tag en el commit actual
 
+    git tag v1.1
 
+> Como creo un tag en un commit en especifico
+
+    git tag v1.1 <hash>
+    git tag v1.1 25fc265
+
+> Usan los tag: Con Versionado Semantico
+
+    git tag -a v0.8.0 <hash> -m "Versión 0.8.0"
+    git tag -a v0.8.0 d21e942 -m "Versión 0.8.0"
+
+a: anotado
+m: mensaje
+
+> Muestra información detallada de los tags
+
+    git show v0.8.0
+
+> Para borrar el tag
+
+    git tag -d v0.8.0
+
+> Para subir todos los tags (NO RECOMENDABLE)
+
+    git push --tags
+
+> Para subir todos los tags (NO RECOMENDABLE)
+
+    git push --tags
+
+> Para subo un tag en especifico
+
+    git push origin <nombre-tag>
